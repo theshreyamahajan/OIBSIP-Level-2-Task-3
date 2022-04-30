@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(92, 193, 210);
+}
+
+.addtask{
+    margin-top: 40px;
+    top: 25%;
+    left: 50%;
+    background-color: aliceblue;
+    border-radius: 9px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputtask{
+    font-size: larger;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 9px;
+    width: 350px;
+}
+
+#addbtn{
+    outline: none;
+    height: 40px;
+    margin: 10px;
+    background-color: rgb(134, 238, 14);
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.tasks{
+    margin-top: 50px;
+    padding: 5px;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+}
+.task{
+    width: 380px;
+    height: 45px;
+    margin: 15px;
+    background-color: rgb(220, 239, 240);
+}
+span{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: larger;
+}
+.task button{
+    float: right;
+    border-radius: 3px;
+    height: 30px;
+    margin: 3px;
+}
+.delete{
+    background-color: rgb(218, 77, 77);
+    color: aliceblue;
+}
+.edit{
+    background-color: rgb(255, 247, 5);
+}
